@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Multicooker {
 	
-	Scanner in = new Scanner(System.in);
-	
 	String brand, model, colour;
 	int power;
 	double bowlCapacity, price;
+	
+	Scanner in = new Scanner(System.in);
 	
 	Multicooker(){
 		System.out.println("Please enter the brand of the multicooker : ");
